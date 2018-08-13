@@ -37,54 +37,54 @@ begin with a number denoting the type of command (1 – 15). In all of the followi
 doesn’t print anything prints Success if it executes successfully and Failure if not. 
 
 1.)  Add a new movie to the library.  
-     1 [id ][name ][length ][year ][rating ][description]
+     `1 [id ][name ][length ][year ][rating ][description]`
 
 2.)  Add a new professional to the library.  
-     2 [type ][id ][age ][job­description ][gender ][name]  
+     `2 [type ][id ][age ][job­description ][gender ][name]`  
 	 For the “type” field, there are four possible types for professionals. 0 = director, 1 = actor, 2 =   writer, 3 = producer.
 
 3.)  Add an existing professional to an existing movie.  
-     3 [movie­id ][professional­id]
+     `3 [movie­id ][professional­id]`
 
 4.)  Add a genre to a movie.  
-     4 [movie­id ][genre]
+     `4 [movie­id ][genre]`
 
 5.)  Define the sort type for the list of professionals that work on a movie.  
-     5 [movie­id ][sort­type]  
+     `5 [movie­id ][sort­type]` 
 	 The sort type can be 1, 2, or 3. 1 = by ID number, 2 = by age, 3 = by number of movies that the professional is listed in. The default sort type is 1, meaning that if this command is not used, the movie’s professionals will be sorted by ID number.
 
 6.)  Print the professionals of a movie.  
-     6 [movie­id]
+     `6 [movie­id]`
 
 7.)  Print movie details.  
-     7 [movie­id]
+     `7 [movie­id]`
 
 8.)  Combine movies.  
-     8 [movie­id],...,[movie­id]  
+     `8 [movie­id],...,[movie­id]`  
 	 This command takes at least two movie ID’s and combines all of the given movies together. Exact details of how this works can be found in the program comments. The ID of the new resulting movie is the concatenation of all of the ID’s of the combining movies.
 
 9.)  Print all of the movies that a given professional works on.  
-     9 [pro­id]
+     `9 [pro­id]`
 
 10.) Delete a movie.  
-     10 [movie­id]
+     `10 [movie­id]`
 
 11.) Delete a professional.  
-     11 [professional­id]
+     `11 [professional­id]`
 
 12.) Remove a professional from a specific movie (professional will still exist in the general library).  
-     12 [movie­id] [professional­id]
+     `12 [movie­id] [professional­id]`
 
 13.) Print all the movies.  
-     13
+     `13`
 
 14.) Print all the professionals.  
-     14
+     `14`
 
 15.) Print all the movies of a given genre.  
-     15 [genre]
+     `15 [genre]`
 
 16.) Exit.  
-     -1 
+     `-1` 
 
 
