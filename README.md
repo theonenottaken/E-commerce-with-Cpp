@@ -50,7 +50,7 @@ doesn’t print anything prints Success if it executes successfully and Failure if
      `4 [movie­id ][genre]`
 
 5.)  Define the sort type for the list of professionals that work on a movie.  
-     `5 [movie­id ][sort­type]` 
+     `5 [movie­id ][sort­type]`  
 	 The sort type can be 1, 2, or 3. 1 = by ID number, 2 = by age, 3 = by number of movies that the professional is listed in. The default sort type is 1, meaning that if this command is not used, the movie’s professionals will be sorted by ID number.
 
 6.)  Print the professionals of a movie.  
